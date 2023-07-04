@@ -17,11 +17,42 @@ puts full_name
 
 # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 
+print "Enter a word: "
+word = gets.chomp
+
+if word == "marco"
+  puts "polo"
+end
+
+
 # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+
+color1 = "red"
+color2 = "blue"
+color3 = "green"
+
+sentence = "I love " + color1 + ", " + color2 + ", and " + color3 + " colors!"
+puts sentence
 
 # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
+color1 = "red"
+color2 = "blue"
+color3 = "green"
+
+sentence = "I love #{color1}, #{color2}, and #{color3} colors!"
+puts sentence
+
+
 # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
+
+print "Enter a name: "
+name = gets.chomp
+
+if name != "Santa"
+  puts "You're not Santa."
+end
+
 
 # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
 
