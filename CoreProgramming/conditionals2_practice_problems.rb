@@ -2,10 +2,10 @@
 
 number = 5 # change this number to test the condition
 
- if number == 10
+if number == 10
     puts 0
 else
-    puts -1
+    puts "-1"
 end
 
 
@@ -15,7 +15,7 @@ end
 number = 7
 
 if number < 10
-  puts -1
+  puts " -1"
 elsif number > 10
   puts 1
 else
@@ -45,7 +45,7 @@ number = 7500
 if number > 9000
   puts 1
 else
-  puts -1
+  puts "-1"
 end
 
 
@@ -61,7 +61,7 @@ elsif number < 20
 elsif number < 30
   puts 29
 else
-  puts -1
+  puts "-1"
 end
 
 
@@ -74,7 +74,7 @@ number2 = 12
 if number1 > 10 || number2 > 10
   puts 100
 else
-  puts -100
+ puts "-100"
 end
 
 # 7. Use a variable to store a number, then write a condition that prints 1776 if the number is less than 0, and prints 1979 otherwise.
