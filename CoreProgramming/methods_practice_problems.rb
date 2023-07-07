@@ -79,4 +79,22 @@ end
 
 # 9. Write a program that asks the user to enter two numbers, then prints the two numbers multiplied together.
 
+print "Enter the first number: "
+number1 = gets.chomp.to_i
+
+print "Enter the second number: "
+number2 = gets.chomp.to_i
+
+product = number1 * number2
+puts "The product is: #{product}"
+
+
 # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
+
+print "Enter a word: "
+word = gets.chomp
+
+if word.length > 5
+  puts "That's a long word"
+end
+
